@@ -1,0 +1,120 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color:  #000000;
+    background-image: url("img/b.jpeg");
+    background-size: cover; /* Ajuste */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Cor neutra para legibilidade */
+}
+
+header img {
+    width: 190px;
+    display: block;
+    margin: 20px auto;
+}
+
+header h1 {
+    font-size: 26px;
+    color: #000000;
+    text-align: center;
+    background-color: lightskyblue;
+    margin: 10px 60px;
+    border: 3px solid #9900ff;
+    padding: 10px;
+}
+.button {
+    margin: 20px;
+    padding: 15px 30px;
+    background-color: #fce80f ;
+    color: rgb(0, 0, 0) ;
+    text-transform:none;
+    border-radius: 50px;
+    font-size: 1.2em;s
+    transition: background-color 0.3s;
+    
+}
+.container{
+    display: block;
+    position: absolute;
+    top: 10%; /* Ajusta a altura do botão */
+    right: 20px;
+    background-color:transparent;
+     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.container1 {
+    display: flex;
+    top: 5%; /* Ajusta a altura do botão */
+    left: 100px;
+    width: 150px;
+    height: 150px;
+    
+    
+}
+
+header h2 {
+    font-size: 15px;
+    color: #fdfdfdf5;
+    background-color: lightslategray;
+    text-align: center;
+    margin: 30px 60px 30px 60px;
+}
+
+main {
+    width: 90%;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo transparente */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+main h3 {
+    font-size: 20px;
+    color: #333; /* Melhor contraste */
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 2px solid #9900ff;
+    border-bottom: 2px solid #0000ff;
+    text-align: center;
+}
+
+main p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.6;
+    color: #555; /* Melhor contraste */
+    text-align: center;
+}
+
+main span {
+    font-weight: bold;
+}
+
+main a {s
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px 560px;
+    color: #ffffff;
+    background-color: #25D366;
+    background-position: center;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+main a:hover {
+    background-color: #00ff6a; /* Cor ao passar o mouse */
+    background-position: center;
+    
+    text-align: center;
+
+}
