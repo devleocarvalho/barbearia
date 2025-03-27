@@ -1,4 +1,4 @@
-# ✂️ Site Barbearia [Barbearia]  
+# ✂️ Site Barbearia 
 
 🔹 **Site institucional** para uma barbearia local, com agendamento online, galeria de serviços e informações de contato.  
 
